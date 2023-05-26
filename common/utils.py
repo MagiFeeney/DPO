@@ -38,8 +38,3 @@ def set_flat_params_to(model, new_params):
             new_params[prev_ind: prev_ind + n_params].view(param.size())
         )
         prev_ind += n_params
-
-def weight_init(m):
-    if isinstance(m, torch.nn.Linear):
-        torch.nn.init.kaiming_normal_(m.weight, nonlinearity='linear')
-        torch.nn.init.constant_(m.bias, 0)
