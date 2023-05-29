@@ -38,3 +38,13 @@ And other dependencies
 ```
 pip install -r requirements.txt
 ```
+
+### Citation
+```
+@misc{ma2023distillation,
+      title={Distillation Policy Optimization}, 
+      author={Jianfei Ma},
+      journal={arXiv preprint arXiv:2302.00533},
+      year={2023}
+}
+```
