@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from gym.spaces import Box, Discrete
+from gymnasium.spaces import Box, Discrete
 from common.base import MLPBase, CNNBase, create_base
 from common.distributions import DiagGaussian, Categorical, Beta
 

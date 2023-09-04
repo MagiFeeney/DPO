@@ -1,4 +1,4 @@
-gym>=0.16.0
+gymnasium 
 stable_baselines3
 tqdm
 numpy
