@@ -1,7 +1,7 @@
 import os
 
 import numpy as np
-import gymnasium as gym
+import gym
 import numpy as np
 import torch
 from gym.spaces.box import Box
