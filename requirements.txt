@@ -1,0 +1,7 @@
+gym[atari,accept-rom-license]==0.21.0
+stable_baselines3==1.8.0
+tqdm
+numpy
+tensorboard
+opencv-python
+ale-py==0.7.4
